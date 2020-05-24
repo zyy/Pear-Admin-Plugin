@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pear-plugin-framework-sequence" />
+        <module name="pear-plugin-starter-sequence" />
+        <module name="pear-plugin-configure" />
+        <module name="pear-plugin-sample-sequence" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Pear-Admin-Plugin" target="11" />
+      <module name="pear-admin-project" target="11" />
+      <module name="pear-plugin-configure" target="11" />
+      <module name="pear-plugin-framework" target="11" />
+      <module name="pear-plugin-framework-sequence" target="11" />
+      <module name="pear-plugin-project" target="11" />
+      <module name="pear-plugin-sample" target="11" />
+      <module name="pear-plugin-sample-sequence" target="11" />
+      <module name="pear-plugin-starter" target="11" />
+      <module name="pear-plugin-starter-sequence" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Pear-Admin-Plugin" options="-parameters" />
+      <module name="pear-admin-project" options="-parameters" />
+      <module name="pear-plugin-configure" options="-parameters" />
+      <module name="pear-plugin-framework" options="-parameters" />
+      <module name="pear-plugin-framework-sequence" options="-parameters" />
+      <module name="pear-plugin-project" options="-parameters" />
+      <module name="pear-plugin-sample" options="-parameters" />
+      <module name="pear-plugin-sample-sequence" options="-parameters" />
+      <module name="pear-plugin-starter" options="-parameters" />
+      <module name="pear-plugin-starter-sequence" options="-parameters" />
+    </option>
+  </component>
+</project>

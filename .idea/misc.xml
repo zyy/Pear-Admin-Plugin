@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pear-plugin-project/pom.xml" />
+        <option value="$PROJECT_DIR$/pear-plugin-sample/pom.xml" />
+        <option value="$PROJECT_DIR$/pear-plugin-project/pear-plugin-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/pear-plugin-project/pear-plugin-framework/pear-plugin-framework-sequence/pom.xml" />
+        <option value="$PROJECT_DIR$/pear-plugin-project/pear-plugin-configure/pom.xml" />
+        <option value="$PROJECT_DIR$/pear-plugin-project/pear-plugin-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/pear-plugin-project/pear-plugin-starter/pear-plugin-starter-sequence/pom.xml" />
+        <option value="$PROJECT_DIR$/pear-plugin-sample/pear-plugin-sample-sequence/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

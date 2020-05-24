@@ -1,0 +1,5 @@
+pear:
+  plugin:
+    sequence:
+      worker-id: 1
+      data-center-id: 1

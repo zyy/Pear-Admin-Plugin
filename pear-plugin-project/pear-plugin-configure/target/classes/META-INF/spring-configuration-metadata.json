@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "name": "pear.plugin.sequence",
+      "type": "com.pearadmin.plugin.configure.sequence.SequenceAutoProperties",
+      "sourceType": "com.pearadmin.plugin.configure.sequence.SequenceAutoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "pear.plugin.sequence.data-center-id",
+      "type": "java.lang.Long",
+      "description": "数 据 中 心 , 默认 0",
+      "sourceType": "com.pearadmin.plugin.configure.sequence.SequenceAutoProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "pear.plugin.sequence.worker-id",
+      "type": "java.lang.Long",
+      "description": "工 作 中 心 , 默认 0",
+      "sourceType": "com.pearadmin.plugin.configure.sequence.SequenceAutoProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
