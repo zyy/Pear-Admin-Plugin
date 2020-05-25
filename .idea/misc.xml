@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/pear-plugin-project/pear-plugin-starter/pom.xml" />
         <option value="$PROJECT_DIR$/pear-plugin-project/pear-plugin-starter/pear-plugin-starter-sequence/pom.xml" />
         <option value="$PROJECT_DIR$/pear-plugin-sample/pear-plugin-sample-sequence/pom.xml" />
+        <option value="$PROJECT_DIR$/pear-plugin-project/pear-plugin-common/pom.xml" />
       </list>
     </option>
   </component>

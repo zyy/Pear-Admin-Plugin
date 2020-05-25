@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="pear-plugin-framework-sequence" />
         <module name="pear-plugin-starter-sequence" />
+        <module name="pear-plugin-common" />
         <module name="pear-plugin-configure" />
         <module name="pear-plugin-sample-sequence" />
       </profile>
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="Pear-Admin-Plugin" target="11" />
       <module name="pear-admin-project" target="11" />
+      <module name="pear-plugin-common" target="11" />
       <module name="pear-plugin-configure" target="11" />
       <module name="pear-plugin-framework" target="11" />
       <module name="pear-plugin-framework-sequence" target="11" />
@@ -29,6 +31,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Pear-Admin-Plugin" options="-parameters" />
       <module name="pear-admin-project" options="-parameters" />
+      <module name="pear-plugin-common" options="-parameters" />
       <module name="pear-plugin-configure" options="-parameters" />
       <module name="pear-plugin-framework" options="-parameters" />
       <module name="pear-plugin-framework-sequence" options="-parameters" />

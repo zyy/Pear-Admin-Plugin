@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Pear-Admin-Plugin.iml" filepath="$PROJECT_DIR$/Pear-Admin-Plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-plugin-project/pear-plugin-common/pear-plugin-common.iml" filepath="$PROJECT_DIR$/pear-plugin-project/pear-plugin-common/pear-plugin-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/pear-plugin-project/pear-plugin-configure/pear-plugin-configure.iml" filepath="$PROJECT_DIR$/pear-plugin-project/pear-plugin-configure/pear-plugin-configure.iml" />
       <module fileurl="file://$PROJECT_DIR$/pear-plugin-project/pear-plugin-framework/pear-plugin-framework.iml" filepath="$PROJECT_DIR$/pear-plugin-project/pear-plugin-framework/pear-plugin-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/pear-plugin-project/pear-plugin-framework/pear-plugin-framework-sequence/pear-plugin-framework-sequence.iml" filepath="$PROJECT_DIR$/pear-plugin-project/pear-plugin-framework/pear-plugin-framework-sequence/pear-plugin-framework-sequence.iml" />
