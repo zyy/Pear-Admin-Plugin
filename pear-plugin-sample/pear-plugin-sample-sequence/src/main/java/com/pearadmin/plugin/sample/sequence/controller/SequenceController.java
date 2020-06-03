@@ -1,6 +1,7 @@
 package com.pearadmin.plugin.sample.sequence.controller;
 
-import com.pearadmin.plugin.framework.sequence.SequenceFactory;
+import com.pearadmin.plugin.framework.sequence.factory.SequenceFactory;
+import com.pearadmin.plugin.framework.sequence.pool.SequencePool;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,17 +13,20 @@ import javax.annotation.Resource;
 public class SequenceController {
 
     @Resource
-    private SequenceFactory sequenceFactory;
+    private SequencePool sequencePool;
 
     @GetMapping("genId")
     public String genId(){
 
-        for (int i = 0;i<10;i++
-             ) {
+        long startTime = System.currentTimeMillis();
 
-            System.out.println(" 序 列 Id :" + sequenceFactory.genId());
+        for (int i = 1; i<30000;i++){
 
+            System.out.println("序号:"+sequencePool.getId());
         }
+        long endTime = System.currentTimeMillis();
+
+        System.out.println("消耗时间:"+ (endTime - startTime));
 
         return "访问成功";
     }

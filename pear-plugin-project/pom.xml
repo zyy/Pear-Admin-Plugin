@@ -17,10 +17,19 @@
     <description>Demo project for Spring Boot</description>
     <packaging>pom</packaging>
 
+    <!-- 模 块 管 理 -->
     <modules>
-        <module>pear-plugin-common</module>
-        <module>pear-plugin-framework</module>
-        <module>pear-plugin-configure</module>
-        <module>pear-plugin-starter</module>
+        <module>pear-plugin-common</module>        <!-- 通 用 模 块 -->
+        <module>pear-plugin-framework</module>     <!-- 核 心 实 现 -->
+        <module>pear-plugin-configure</module>     <!-- 自 动 配 置 -->
+        <module>pear-plugin-starter</module>       <!-- 引 入 启 动 -->
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
+        </dependency>
+    </dependencies>
 </project>

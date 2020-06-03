@@ -14,6 +14,7 @@
     <description>Demo project for Spring Boot</description>
 
     <dependencies>
+        <!-- 分 布 式 ID 启 动 器 ( Starter ) -->
         <dependency>
             <groupId>com.pearadmin</groupId>
             <artifactId>pear-plugin-starter-sequence</artifactId>

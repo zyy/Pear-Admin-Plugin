@@ -13,11 +13,21 @@ public class SequenceAutoProperties {
     /**
      * 工 作 中 心 , 默认 0
      */
-    private long workerId = 0;
+    private int workerId = 0;
 
     /**
      * 数 据 中 心 , 默认 0
      */
-    private long dataCenterId = 0;
+    private int dataCenterId = 0;
+
+    /**
+     * 初 始 化 数 量 , 默认 100
+     * */
+    private int initSize = 300;
+
+    /**
+     * 最 小 闲 置 , 默认 100
+     * */
+    private int minIdle = 100;
 
 }

@@ -1,6 +1,10 @@
 package com.pearadmin.plugin.configure.sequence;
 
-import com.pearadmin.plugin.framework.sequence.SequenceFactory;
+import com.pearadmin.plugin.framework.sequence.entity.Sequence;
+import com.pearadmin.plugin.framework.sequence.factory.SequenceFactory;
+import com.pearadmin.plugin.framework.sequence.factory.SequenceFactoryImpl;
+import com.pearadmin.plugin.framework.sequence.pool.SequencePool;
+import com.pearadmin.plugin.framework.sequence.pool.SequencePoolConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -10,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 import javax.annotation.Resource;
 
 /**
- * 分 布 式 Id 自 动 配 置 --【就眠仪式】
+ * 分 布 式 Id 自 动 配 置 --[就眠仪式]
  */
 @Slf4j
 @Configuration
@@ -28,11 +32,28 @@ public class SequenceAutoConfiguration {
      * 初 始 化 分 布 式 Id 工 厂,并 交 由 Spring IOC 托 管
      */
     @Bean
-    public SequenceFactory sequenceFactory() {
-        log.info("初 始 化 分 布 式 ID 工 厂");
-        log.info("工 作 编 号 : " + sequenceAutoProperties.getWorkerId());
-        log.info("数 据 中 心 : " + sequenceAutoProperties.getDataCenterId());
-        return new SequenceFactory(sequenceAutoProperties.getWorkerId(), sequenceAutoProperties.getDataCenterId());
+    public SequencePool sequencePool(SequencePoolConfig sequencePoolConfig){
+        try {
+            SequencePool sequencePool = new SequencePool(sequencePoolConfig);
+            sequencePool.init();
+            return sequencePool;
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    /**
+     * 配 置 文 件 初 始 化
+     * */
+    @Bean
+    public SequencePoolConfig sequencePoolConfig(){
+        SequencePoolConfig config = new SequencePoolConfig();
+        config.setCenterId(sequenceAutoProperties.getDataCenterId());
+        config.setWorkerId(sequenceAutoProperties.getDataCenterId());
+        config.setMinIdle(sequenceAutoProperties.getMinIdle());
+        config.setInitSize(sequenceAutoProperties.getInitSize());
+        return config;
     }
 
 }
