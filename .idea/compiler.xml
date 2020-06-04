@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pear-plugin-framework-sequence" />
-        <module name="pear-plugin-starter-sequence" />
         <module name="pear-plugin-common" />
         <module name="pear-plugin-configure" />
+        <module name="pear-plugin-starter-sequence" />
         <module name="pear-plugin-sample-sequence" />
+        <module name="pear-plugin-framework-sequence" />
+        <module name="pear-plugin-starter-datasource" />
+        <module name="pear-plugin-framework-datasource" />
+        <module name="pear-plugin-sample-datasource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,11 +22,14 @@
       <module name="pear-plugin-common" target="11" />
       <module name="pear-plugin-configure" target="11" />
       <module name="pear-plugin-framework" target="11" />
+      <module name="pear-plugin-framework-datasource" target="11" />
       <module name="pear-plugin-framework-sequence" target="11" />
       <module name="pear-plugin-project" target="11" />
       <module name="pear-plugin-sample" target="11" />
+      <module name="pear-plugin-sample-datasource" target="11" />
       <module name="pear-plugin-sample-sequence" target="11" />
       <module name="pear-plugin-starter" target="11" />
+      <module name="pear-plugin-starter-datasource" target="11" />
       <module name="pear-plugin-starter-sequence" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -34,11 +40,14 @@
       <module name="pear-plugin-common" options="-parameters" />
       <module name="pear-plugin-configure" options="-parameters" />
       <module name="pear-plugin-framework" options="-parameters" />
+      <module name="pear-plugin-framework-datasource" options="-parameters" />
       <module name="pear-plugin-framework-sequence" options="-parameters" />
       <module name="pear-plugin-project" options="-parameters" />
       <module name="pear-plugin-sample" options="-parameters" />
+      <module name="pear-plugin-sample-datasource" options="-parameters" />
       <module name="pear-plugin-sample-sequence" options="-parameters" />
       <module name="pear-plugin-starter" options="-parameters" />
+      <module name="pear-plugin-starter-datasource" options="-parameters" />
       <module name="pear-plugin-starter-sequence" options="-parameters" />
     </option>
   </component>

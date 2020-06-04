@@ -16,5 +16,6 @@
 
     <modules>
         <module>pear-plugin-framework-sequence</module>
+        <module>pear-plugin-framework-datasource</module>
     </modules>
 </project>

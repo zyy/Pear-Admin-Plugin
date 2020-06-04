@@ -1,6 +1,11 @@
 {
   "groups": [
     {
+      "name": "pear.plugin.datasource",
+      "type": "com.pearadmin.plugin.configure.datasource.DataSourceAutoProperties",
+      "sourceType": "com.pearadmin.plugin.configure.datasource.DataSourceAutoProperties"
+    },
+    {
       "name": "pear.plugin.sequence",
       "type": "com.pearadmin.plugin.configure.sequence.SequenceAutoProperties",
       "sourceType": "com.pearadmin.plugin.configure.sequence.SequenceAutoProperties"
@@ -8,7 +13,25 @@
   ],
   "properties": [
     {
-      "name": "pear.plugin.sequence.data-center-id",
+      "name": "pear.plugin.datasource.druid",
+      "type": "java.util.Map<java.lang.String,com.pearadmin.plugin.framework.datasource.entity.DruidDataSourceConfig>",
+      "description": "Druid Configuration List",
+      "sourceType": "com.pearadmin.plugin.configure.datasource.DataSourceAutoProperties"
+    },
+    {
+      "name": "pear.plugin.datasource.hikari",
+      "type": "java.util.Map<java.lang.String,com.pearadmin.plugin.framework.datasource.entity.HikariDataSourceConfig>",
+      "description": "Hikari Configuration List",
+      "sourceType": "com.pearadmin.plugin.configure.datasource.DataSourceAutoProperties"
+    },
+    {
+      "name": "pear.plugin.datasource.primary",
+      "type": "java.lang.String",
+      "description": "default user DataSource Configuration",
+      "sourceType": "com.pearadmin.plugin.configure.datasource.DataSourceAutoProperties"
+    },
+    {
+      "name": "pear.plugin.sequence.center-id",
       "type": "java.lang.Integer",
       "description": "数 据 中 心 , 默认 0",
       "sourceType": "com.pearadmin.plugin.configure.sequence.SequenceAutoProperties",

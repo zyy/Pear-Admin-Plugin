@@ -17,6 +17,13 @@
         <dependency>
             <groupId>com.pearadmin</groupId>
             <artifactId>pear-plugin-framework-sequence</artifactId>
+            <version>0.0.2-SNAPSHOT</version>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pearadmin</groupId>
+            <artifactId>pear-plugin-framework-datasource</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <optional>true</optional>
         </dependency>

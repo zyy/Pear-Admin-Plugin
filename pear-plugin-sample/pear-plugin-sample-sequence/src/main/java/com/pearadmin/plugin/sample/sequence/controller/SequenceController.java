@@ -1,6 +1,5 @@
 package com.pearadmin.plugin.sample.sequence.controller;
 
-import com.pearadmin.plugin.framework.sequence.factory.SequenceFactory;
 import com.pearadmin.plugin.framework.sequence.pool.SequencePool;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

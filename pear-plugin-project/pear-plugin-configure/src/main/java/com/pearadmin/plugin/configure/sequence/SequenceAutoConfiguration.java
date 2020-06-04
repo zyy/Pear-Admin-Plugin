@@ -18,7 +18,7 @@ import javax.annotation.Resource;
  */
 @Slf4j
 @Configuration
-@ConditionalOnClass(SequenceFactory.class)
+@ConditionalOnClass(SequencePool.class)
 @EnableConfigurationProperties(SequenceAutoProperties.class)
 public class SequenceAutoConfiguration {
 
@@ -36,6 +36,7 @@ public class SequenceAutoConfiguration {
         try {
             SequencePool sequencePool = new SequencePool(sequencePoolConfig);
             sequencePool.init();
+            log.info("初 始 化 分 布 式 ID 资 源 池");
             return sequencePool;
         }catch (Exception e){
             e.printStackTrace();
@@ -49,10 +50,15 @@ public class SequenceAutoConfiguration {
     @Bean
     public SequencePoolConfig sequencePoolConfig(){
         SequencePoolConfig config = new SequencePoolConfig();
-        config.setCenterId(sequenceAutoProperties.getDataCenterId());
-        config.setWorkerId(sequenceAutoProperties.getDataCenterId());
+        config.setCenterId(sequenceAutoProperties.getCenterId());
+        config.setWorkerId(sequenceAutoProperties.getWorkerId());
         config.setMinIdle(sequenceAutoProperties.getMinIdle());
         config.setInitSize(sequenceAutoProperties.getInitSize());
+        log.info("加 载 分 布 式 ID 生 成 器 配 置");
+        log.info("初 始 容 量 : " + sequenceAutoProperties.getInitSize());
+        log.info("最 小 闲 置 : " + sequenceAutoProperties.getMinIdle());
+        log.info("机 器 编 号 : " + sequenceAutoProperties.getWorkerId());
+        log.info("数 据 中 心 : " + sequenceAutoProperties.getCenterId());
         return config;
     }
 

@@ -1,0 +1,14 @@
+com\pearadmin\plugin\framework\datasource\routing\DynamicDataSource.class
+com\pearadmin\plugin\framework\datasource\entity\HikariDataSourceConfig.class
+com\pearadmin\plugin\framework\datasource\aspect\DataSourceAspect.class
+com\pearadmin\plugin\framework\datasource\routing\DynamicDataSourceContextHolder.class
+com\pearadmin\plugin\framework\datasource\support\BaseDataSourceSupport.class
+com\pearadmin\plugin\framework\datasource\entity\BaseDataSourceConfig.class
+com\pearadmin\plugin\framework\datasource\routing\DynamicDataSourceContextHolder$1.class
+com\pearadmin\plugin\framework\datasource\entity\DruidDataSourceConfig.class
+com\pearadmin\plugin\framework\datasource\support\HikariDataSourceSupport.class
+com\pearadmin\plugin\framework\datasource\annotation\DataSource.class
+com\pearadmin\plugin\framework\datasource\entity\DruidDataSourceConfig$DruidDataSourceConfigBuilder.class
+com\pearadmin\plugin\framework\datasource\factory\DynamicDataSourceFactory.class
+com\pearadmin\plugin\framework\datasource\entity\HikariDataSourceConfig$HikariDataSourceConfigBuilder.class
+com\pearadmin\plugin\framework\datasource\support\DruidDataSourceSupport.class

@@ -18,7 +18,7 @@ public class SequenceAutoProperties {
     /**
      * 数 据 中 心 , 默认 0
      */
-    private int dataCenterId = 0;
+    private int centerId = 0;
 
     /**
      * 初 始 化 数 量 , 默认 100
