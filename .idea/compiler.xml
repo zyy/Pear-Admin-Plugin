@@ -9,6 +9,7 @@
         <module name="pear-plugin-common" />
         <module name="pear-plugin-configure" />
         <module name="pear-plugin-starter-sequence" />
+        <module name="pear-plugin-framework-pageable" />
         <module name="pear-plugin-sample-sequence" />
         <module name="pear-plugin-framework-sequence" />
         <module name="pear-plugin-starter-datasource" />
@@ -23,6 +24,7 @@
       <module name="pear-plugin-configure" target="11" />
       <module name="pear-plugin-framework" target="11" />
       <module name="pear-plugin-framework-datasource" target="11" />
+      <module name="pear-plugin-framework-pageable" target="11" />
       <module name="pear-plugin-framework-sequence" target="11" />
       <module name="pear-plugin-project" target="11" />
       <module name="pear-plugin-sample" target="11" />
@@ -41,6 +43,7 @@
       <module name="pear-plugin-configure" options="-parameters" />
       <module name="pear-plugin-framework" options="-parameters" />
       <module name="pear-plugin-framework-datasource" options="-parameters" />
+      <module name="pear-plugin-framework-pageable" options="-parameters" />
       <module name="pear-plugin-framework-sequence" options="-parameters" />
       <module name="pear-plugin-project" options="-parameters" />
       <module name="pear-plugin-sample" options="-parameters" />

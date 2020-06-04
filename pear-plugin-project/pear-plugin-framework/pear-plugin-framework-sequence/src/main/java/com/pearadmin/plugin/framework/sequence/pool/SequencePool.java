@@ -4,11 +4,14 @@ import com.pearadmin.plugin.framework.sequence.entity.Sequence;
 import com.pearadmin.plugin.framework.sequence.exception.SequenceException;
 import com.pearadmin.plugin.framework.sequence.factory.SequenceFactory;
 import com.pearadmin.plugin.framework.sequence.factory.SequenceFactoryImpl;
+import lombok.extern.slf4j.Slf4j;
+
 import java.util.*;
 
 /**
  * Sequence 资 源 池 -- [就眠仪式]
  * */
+@Slf4j
 public class SequencePool {
 
     /**
@@ -49,6 +52,8 @@ public class SequencePool {
     public void init() {
 
         try {
+
+            log.info("Initialization sequence pool");
 
             Set<Sequence> sequenceIds = sequenceFactory.makeSequence(config.getInitSize());
 

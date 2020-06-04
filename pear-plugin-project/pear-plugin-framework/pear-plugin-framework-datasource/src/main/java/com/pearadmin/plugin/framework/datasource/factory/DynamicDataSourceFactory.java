@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * DataSource Factory
+ * DataSource Factory -- [就眠仪式]
  */
 @Slf4j
 public class DynamicDataSourceFactory {
@@ -30,13 +30,14 @@ public class DynamicDataSourceFactory {
         this.configs = configs;
         this.primaryPoolName = primaryPoolName;
         configs.forEach((key, item) -> {
-            log.info("注 册 数 据 源 ：" + key);
+            log.info("加 载 数 据 源 : " + key );
             if (item instanceof DruidDataSourceConfig) {
                 dataSources.put(key, new DruidDataSourceSupport((DruidDataSourceConfig) item).build());
             } else if (item instanceof HikariDataSourceConfig) {
                 dataSources.put(key, new HikariDataSourceSupport((HikariDataSourceConfig) item).build());
             }
         });
+        log.info("Initialization datasource factory");
     }
 
     /**

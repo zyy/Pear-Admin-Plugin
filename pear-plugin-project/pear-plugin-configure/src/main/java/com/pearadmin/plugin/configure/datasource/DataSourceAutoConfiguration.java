@@ -4,6 +4,7 @@ import com.pearadmin.plugin.framework.datasource.entity.BaseDataSourceConfig;
 import com.pearadmin.plugin.framework.datasource.factory.DynamicDataSourceFactory;
 import com.pearadmin.plugin.framework.datasource.routing.DynamicDataSource;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.autoconfigure.AutoConfigureBefore;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -19,6 +20,7 @@ import java.util.Map;
 @Configuration
 @ConditionalOnClass(BaseDataSourceConfig.class)
 @EnableConfigurationProperties(DataSourceAutoProperties.class)
+@AutoConfigureBefore(org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration.class)
 public class DataSourceAutoConfiguration {
 
     /**
@@ -46,6 +48,8 @@ public class DataSourceAutoConfiguration {
      */
     @Bean
     public DynamicDataSourceFactory dataSourceFactory() {
+        log.info("Read datasource configuration information");
+        //log.info("读 取 数 据 库 连 接 池 配 置 信 息");
         Map<String, BaseDataSourceConfig> dataSourceConfigMap = new HashMap<>();
         dataSourceConfigMap.putAll(properties.getDruid());
         dataSourceConfigMap.putAll(properties.getHikari());
@@ -54,5 +58,4 @@ public class DataSourceAutoConfiguration {
         }
         return new DynamicDataSourceFactory(dataSourceConfigMap, properties.getPrimary());
     }
-
 }

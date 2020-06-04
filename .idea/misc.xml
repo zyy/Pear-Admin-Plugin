@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/pear-plugin-project/pear-plugin-framework/pear-plugin-framework-datasource/pom.xml" />
         <option value="$PROJECT_DIR$/pear-plugin-project/pear-plugin-starter/pear-plugin-starter-datasource/pom.xml" />
         <option value="$PROJECT_DIR$/pear-plugin-sample/pear-plugin-sample-datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/pear-plugin-project/pear-plugin-framework/pear-plugin-framework-pageable/pom.xml" />
       </list>
     </option>
   </component>
