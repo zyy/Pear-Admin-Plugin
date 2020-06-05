@@ -6,14 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="pear-plugin-starter-datasource" />
         <module name="pear-plugin-configure" />
         <module name="pear-plugin-starter-sequence" />
-        <module name="pear-plugin-framework-datasource" />
+        <module name="pear-plugin-framework-common" />
         <module name="pear-plugin-sample-sequence" />
+        <module name="pear-plugin-framework-web" />
         <module name="pear-plugin-framework-sequence" />
         <module name="pear-plugin-sample-datasource" />
-        <module name="pear-plugin-starter-datasource" />
+        <module name="pear-plugin-framework-datasource" />
         <module name="pear-plugin-framework-pageable" />
+        <module name="pear-plugin-framework-logging" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,9 +25,12 @@
       <module name="pear-plugin-common" target="11" />
       <module name="pear-plugin-configure" target="11" />
       <module name="pear-plugin-framework" target="11" />
+      <module name="pear-plugin-framework-common" target="11" />
       <module name="pear-plugin-framework-datasource" target="11" />
+      <module name="pear-plugin-framework-logging" target="11" />
       <module name="pear-plugin-framework-pageable" target="11" />
       <module name="pear-plugin-framework-sequence" target="11" />
+      <module name="pear-plugin-framework-web" target="11" />
       <module name="pear-plugin-project" target="11" />
       <module name="pear-plugin-sample" target="11" />
       <module name="pear-plugin-sample-datasource" target="11" />
@@ -41,9 +47,12 @@
       <module name="pear-plugin-common" options="-parameters" />
       <module name="pear-plugin-configure" options="-parameters" />
       <module name="pear-plugin-framework" options="-parameters" />
+      <module name="pear-plugin-framework-common" options="-parameters" />
       <module name="pear-plugin-framework-datasource" options="-parameters" />
+      <module name="pear-plugin-framework-logging" options="-parameters" />
       <module name="pear-plugin-framework-pageable" options="-parameters" />
       <module name="pear-plugin-framework-sequence" options="-parameters" />
+      <module name="pear-plugin-framework-web" options="-parameters" />
       <module name="pear-plugin-project" options="-parameters" />
       <module name="pear-plugin-sample" options="-parameters" />
       <module name="pear-plugin-sample-datasource" options="-parameters" />

@@ -4,21 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.pearadmin</groupId>
-        <artifactId>pear-plugin-project</artifactId>
+        <artifactId>pear-plugin-framework</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.pearadmin</groupId>
-    <artifactId>pear-plugin-framework</artifactId>
+    <artifactId>pear-plugin-framework-logging</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pear-plugin-framework</name>
+    <name>pear-plugin-framework-logging</name>
     <description>Demo project for Spring Boot</description>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>pear-plugin-framework-common</module>
-        <module>pear-plugin-framework-logging</module>
-        <module>pear-plugin-framework-pageable</module>
-        <module>pear-plugin-framework-sequence</module>
-        <module>pear-plugin-framework-datasource</module>
-    </modules>
 </project>
