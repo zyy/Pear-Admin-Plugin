@@ -1,7 +1,0 @@
-com\pearadmin\plugin\configure\sequence\SequenceAutoConfiguration.class
-com\pearadmin\plugin\configure\datasource\DataSourceAutoProperties.class
-com\pearadmin\plugin\configure\document\DocumentAutoConfiguration.class
-com\pearadmin\plugin\configure\datasource\DataSourceAutoConfiguration.class
-com\pearadmin\plugin\configure\sequence\SequenceAutoProperties.class
-com\pearadmin\plugin\configure\document\DocumentAutoProperties.class
-META-INF\spring-configuration-metadata.json

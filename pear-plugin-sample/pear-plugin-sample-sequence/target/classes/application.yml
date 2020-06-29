@@ -1,7 +1,0 @@
-pear:
-  plugin:
-    sequence:
-      worker-id: 1
-      data-center-id: 1
-      min-idle: 100
-      init-size: 70000

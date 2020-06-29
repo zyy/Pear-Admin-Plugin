@@ -1,6 +1,0 @@
-com\pearadmin\plugin\framework\sequence\entity\Sequence.class
-com\pearadmin\plugin\framework\sequence\exception\SequenceException.class
-com\pearadmin\plugin\framework\sequence\pool\SequencePoolConfig.class
-com\pearadmin\plugin\framework\sequence\factory\SequenceFactoryImpl.class
-com\pearadmin\plugin\framework\sequence\factory\SequenceFactory.class
-com\pearadmin\plugin\framework\sequence\pool\SequencePool.class
