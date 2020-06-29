@@ -1,5 +1,0 @@
-com\pearadmin\plugin\framework\pageable\aspect\PageableAspect.class
-com\pearadmin\plugin\framework\pageable\bean\PageBody.class
-com\pearadmin\plugin\framework\pageable\context\PageContext.class
-com\pearadmin\plugin\framework\pageable\annotation\Pageable.class
-com\pearadmin\plugin\framework\pageable\exception\PageableException.class

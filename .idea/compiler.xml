@@ -9,14 +9,11 @@
         <module name="pear-plugin-starter-datasource" />
         <module name="pear-plugin-configure" />
         <module name="pear-plugin-starter-sequence" />
-        <module name="pear-plugin-framework-common" />
         <module name="pear-plugin-sample-sequence" />
         <module name="pear-plugin-framework-web" />
         <module name="pear-plugin-framework-sequence" />
         <module name="pear-plugin-sample-datasource" />
         <module name="pear-plugin-framework-datasource" />
-        <module name="pear-plugin-framework-pageable" />
-        <module name="pear-plugin-framework-logging" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

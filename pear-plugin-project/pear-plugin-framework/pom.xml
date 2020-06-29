@@ -15,9 +15,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>pear-plugin-framework-common</module>
-        <module>pear-plugin-framework-logging</module>
-        <module>pear-plugin-framework-pageable</module>
         <module>pear-plugin-framework-sequence</module>
         <module>pear-plugin-framework-datasource</module>
     </modules>
