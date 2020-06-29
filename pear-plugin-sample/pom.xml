@@ -19,6 +19,7 @@
 
     <modules>
         <module>pear-plugin-sample-sequence</module>
+        <module>pear-plugin-sample-document</module>
         <module>pear-plugin-sample-datasource</module>
     </modules>
 </project>

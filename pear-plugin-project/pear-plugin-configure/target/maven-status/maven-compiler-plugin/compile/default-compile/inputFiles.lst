@@ -1,4 +1,6 @@
-D:\Pear-Admin-Pros\Pear-Admin-Plugin\pear-plugin-project\pear-plugin-configure\src\main\java\com\pearadmin\plugin\configure\datasource\DataSourceAutoProperties.java
-D:\Pear-Admin-Pros\Pear-Admin-Plugin\pear-plugin-project\pear-plugin-configure\src\main\java\com\pearadmin\plugin\configure\sequence\SequenceAutoProperties.java
-D:\Pear-Admin-Pros\Pear-Admin-Plugin\pear-plugin-project\pear-plugin-configure\src\main\java\com\pearadmin\plugin\configure\sequence\SequenceAutoConfiguration.java
-D:\Pear-Admin-Pros\Pear-Admin-Plugin\pear-plugin-project\pear-plugin-configure\src\main\java\com\pearadmin\plugin\configure\datasource\DataSourceAutoConfiguration.java
+D:\pearadmin\Pear-Admin-Plugin\pear-plugin-project\pear-plugin-configure\src\main\java\com\pearadmin\plugin\configure\document\DocumentAutoConfiguration.java
+D:\pearadmin\Pear-Admin-Plugin\pear-plugin-project\pear-plugin-configure\src\main\java\com\pearadmin\plugin\configure\sequence\SequenceAutoProperties.java
+D:\pearadmin\Pear-Admin-Plugin\pear-plugin-project\pear-plugin-configure\src\main\java\com\pearadmin\plugin\configure\document\DocumentAutoProperties.java
+D:\pearadmin\Pear-Admin-Plugin\pear-plugin-project\pear-plugin-configure\src\main\java\com\pearadmin\plugin\configure\sequence\SequenceAutoConfiguration.java
+D:\pearadmin\Pear-Admin-Plugin\pear-plugin-project\pear-plugin-configure\src\main\java\com\pearadmin\plugin\configure\datasource\DataSourceAutoProperties.java
+D:\pearadmin\Pear-Admin-Plugin\pear-plugin-project\pear-plugin-configure\src\main\java\com\pearadmin\plugin\configure\datasource\DataSourceAutoConfiguration.java

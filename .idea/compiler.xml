@@ -13,7 +13,10 @@
         <module name="pear-plugin-framework-web" />
         <module name="pear-plugin-framework-sequence" />
         <module name="pear-plugin-sample-datasource" />
+        <module name="pear-plugin-sample-document" />
         <module name="pear-plugin-framework-datasource" />
+        <module name="pear-plugin-starter-document" />
+        <module name="pear-plugin-framework-document" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +27,7 @@
       <module name="pear-plugin-framework" target="11" />
       <module name="pear-plugin-framework-common" target="11" />
       <module name="pear-plugin-framework-datasource" target="11" />
+      <module name="pear-plugin-framework-document" target="11" />
       <module name="pear-plugin-framework-logging" target="11" />
       <module name="pear-plugin-framework-pageable" target="11" />
       <module name="pear-plugin-framework-sequence" target="11" />
@@ -31,9 +35,11 @@
       <module name="pear-plugin-project" target="11" />
       <module name="pear-plugin-sample" target="11" />
       <module name="pear-plugin-sample-datasource" target="11" />
+      <module name="pear-plugin-sample-document" target="11" />
       <module name="pear-plugin-sample-sequence" target="11" />
       <module name="pear-plugin-starter" target="11" />
       <module name="pear-plugin-starter-datasource" target="11" />
+      <module name="pear-plugin-starter-document" target="11" />
       <module name="pear-plugin-starter-sequence" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -46,6 +52,7 @@
       <module name="pear-plugin-framework" options="-parameters" />
       <module name="pear-plugin-framework-common" options="-parameters" />
       <module name="pear-plugin-framework-datasource" options="-parameters" />
+      <module name="pear-plugin-framework-document" options="-parameters" />
       <module name="pear-plugin-framework-logging" options="-parameters" />
       <module name="pear-plugin-framework-pageable" options="-parameters" />
       <module name="pear-plugin-framework-sequence" options="-parameters" />
@@ -53,9 +60,11 @@
       <module name="pear-plugin-project" options="-parameters" />
       <module name="pear-plugin-sample" options="-parameters" />
       <module name="pear-plugin-sample-datasource" options="-parameters" />
+      <module name="pear-plugin-sample-document" options="-parameters" />
       <module name="pear-plugin-sample-sequence" options="-parameters" />
       <module name="pear-plugin-starter" options="-parameters" />
       <module name="pear-plugin-starter-datasource" options="-parameters" />
+      <module name="pear-plugin-starter-document" options="-parameters" />
       <module name="pear-plugin-starter-sequence" options="-parameters" />
     </option>
   </component>

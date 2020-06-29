@@ -16,6 +16,7 @@
 
     <modules>
         <module>pear-plugin-starter-sequence</module>
+        <module>pear-plugin-starter-document</module>
         <module>pear-plugin-starter-datasource</module>
     </modules>
 

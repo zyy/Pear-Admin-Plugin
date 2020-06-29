@@ -29,6 +29,13 @@
         </dependency>
 
         <dependency>
+            <groupId>com.pearadmin</groupId>
+            <artifactId>pear-plugin-framework-document</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.12</version>

@@ -15,6 +15,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>pear-plugin-framework-document</module>
         <module>pear-plugin-framework-sequence</module>
         <module>pear-plugin-framework-datasource</module>
     </modules>
