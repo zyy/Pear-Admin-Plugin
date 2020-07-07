@@ -98,6 +98,6 @@ pear:
 
 在 Sequence Id 组件中，效仿数据库连接池，使用资源池设计模式来提高 Sequence Id 的 生产 和 预生产 能力，提高在并发环境下的效率
 
-更多组件的使用方式，产靠 Pear-Plugin-Sample 目录
+更多组件的使用方式，参考 Pear-Plugin-Sample 目录
 
 
