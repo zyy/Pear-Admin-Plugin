@@ -1,6 +1,6 @@
 # Pear Admin Plugin
 
-官方网站 : [官 网](http://www.pearadmin.cn "在这里输入图片标题")
+官方网站 : [官 网](http://www.pearadmin.com "在这里输入图片标题")
 
 交流社区 : [交 流](https://jq.qq.com/?_wv=1027&k=5OdSmve)
 
